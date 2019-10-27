@@ -1,0 +1,10 @@
+Package: allometry
+Title: Quantifying constraints on allometry 
+Version: 0.1
+Author: Kjetil L. Voje (k.l.voje@ibv.uio.no)
+Description: To quantify constraints on allometry, the package estimates the (predicted) trait variance that remains when allometric parameters or body size are held constant in the sense that their means are not allowed to change.
+Depends: R (>= 3.6.0)
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
