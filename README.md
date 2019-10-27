@@ -6,8 +6,9 @@ One way around this problem is to quantify the effect of the observed allometric
 
 The contribution of size and the allometric parameters (intercept and slope) to trait variance is not additive (i.e., not orthogonal, see equation 8 in Voje et al. 2014.). Interactions between the parameters need to be evaluated to estimate the relative contribution of the different parameters on the predicted trait variance. Both variation in size and allometric intercept can generate some variation in a trait by themselves, whereas variation in slope does not generate trait variation unless size show some variation.
 
-<img src="https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png" alt="allometry evolution" class="center" width="600"/>
-
+<p align="center">
+<img src="https://github.com/klvoje/allometry/blob/master/extra/allometry_evolution.png" alt="allometry evolution" class="center" width="600"/>
+</p>
 
 Figure 1: Graphical illustration of how variation in static allometric parameters produces trait variation across taxa. The gray ellipses represent phenotypic variation within a population and the ancestral population is indicated by a broken line surrounding this variation. The size data within the two taxa are centered on the global mean, represented by the vertical line. In A only body size generates variation in the trait across populations. In this case, static allometry predicts the evolutionary allometry perfectly. In B all variation across populations is due to change in the intercept. In C the slope has changed, but because the mean body size is the same there is no difference in the trait mean between populations. In D there are changes in both slope and body size, and their interaction cause a difference in trait means between populations
 
@@ -37,7 +38,9 @@ require(allometry)
 
 We have a dataset of 30 static allometries of male eye-stalk length in stalk-eyed flies (Diopsidae). Many stalk-eyed flies have long eye-stalks, which are projections from the sides of the head with the eyes at the end: 
 
-<img src="https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png" alt="fly" class="center" width="500"/>
+<p align="center">
+<img src="https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png" alt="fly" class="center" width="450"/>
+</p>
 
 The data (`stalk_eyed_flies`) is part of the `allometry` package. Let us have a look at the first five rows:
 
