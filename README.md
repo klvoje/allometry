@@ -36,7 +36,7 @@ require(allometry)
 
 We have a dataset of 30 static allometries of eye-stalk length in stalk-eyed flies (Diopsidae) (Figure 2). 
 
-<https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png" alt="fly" width="276"/>
+<img src="https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png" alt="fly" width="276"/>
 
 ![fly](https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png =276x248)
 
