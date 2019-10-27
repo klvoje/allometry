@@ -6,7 +6,7 @@ One way around this problem is to quantify the effect of the observed allometric
 
 The contribution of size and the allometric parameters (intercept and slope) to trait variance is not additive (i.e., not orthogonal, see equation 8 in Voje et al. 2014.). Interactions between the parameters need to be evaluated to estimate the relative contribution of the different parameters on the predicted trait variance. Both variation in size and allometric intercept can generate some variation in a trait by themselves, whereas variation in slope does not generate trait variation unless size show some variation.
 
-![allometry evolution](https://github.com/klvoje/allometry/blob/master/extra/allometry_evolution.png)
+![allometry evolution](https://github.com/klvoje/allometry/blob/master/extra/allometry_evolution.png=)
 
 Figure 1: Graphical illustration of how variation in static allometric parameters produces trait variation across taxa. The gray ellipses represent phenotypic variation within a population and the ancestral population is indicated by a broken line surrounding this variation. The size data within the two taxa are centered on the global mean, represented by the vertical line. In A only body size generates variation in the trait across populations. In this case, static allometry predicts the evolutionary allometry perfectly. In B all variation across populations is due to change in the intercept. In C the slope has changed, but because the mean body size is the same there is no difference in the trait mean between populations. In D there are changes in both slope and body size, and their interaction cause a difference in trait means between populations
 
@@ -35,6 +35,8 @@ require(allometry)
 ## Example
 
 We have a dataset of 30 static allometries of eye-stalk length in stalk-eyed flies (Diopsidae) (Figure 2). 
+
+<https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png" alt="fly" width="276"/>
 
 ![fly](https://github.com/klvoje/allometry/blob/master/extra/stalkeyed_fly.png =276x248)
 
