@@ -12,6 +12,6 @@
 
 var_a.x<-function (allometry.object) 
 {
-  out<-var(allometry.object$intercept)-(cov(allometry.object$intercept,allometry.object$x_mean)^2/var(allometry.object$x_mean))
+  out<-var(allometry.object$intercept)-((cov(allometry.object$intercept,allometry.object$x_mean)^2)/var(allometry.object$x_mean))
   return(out)
 }

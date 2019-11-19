@@ -13,6 +13,6 @@
 
 var_x.b<-function (allometry.object)
 {
-  out<-var(allometry.object$x_mean)-(cov(allometry.object$slope,allometry.object$x_mean)^2/var(allometry.object$slope))
+  out<-var(allometry.object$x_mean)-((cov(allometry.object$slope,allometry.object$x_mean)^2)/var(allometry.object$slope))
   return(out)
 }

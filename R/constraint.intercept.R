@@ -15,6 +15,6 @@
 
 constraint.intercept<-function (allometry.object)
 {
-  out<-var_x.a(allometry.object)*mean(allometry.object$slope)^2 + var_b.a(allometry.object) + cov_b_x.a(allometry.object)^2 
+  out<-var_x.a(allometry.object)*((mean(allometry.object$slope)^2) + var_b.a(allometry.object)) + cov_b_x.a(allometry.object)^2 
   return(out)
 }
